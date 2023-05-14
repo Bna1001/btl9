@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "btlnhom09/1.0.0": {
+        "runtime": {
+          "btlnhom09.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "btlnhom09/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
