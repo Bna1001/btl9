@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using btlnhom09.Models;
+using btlnhom09.Models.Process;
 
 namespace btlnhom09.Controllers
 {
     public class SaleController : Controller
     {
+        StringProcess strPro = new StringProcess();
         private readonly ApplicationDbContext _context;
 
         public SaleController(ApplicationDbContext context)
@@ -49,9 +51,21 @@ namespace btlnhom09.Controllers
         // GET: Sale/Create
         public IActionResult Create()
         {
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID");
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID");
-            ViewData["ViTriSaleID"] = new SelectList(_context.Set<SaleViTri>(), "ViTriSaleID", "ViTriSaleID");
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong");
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong");
+            ViewData["ViTriSaleID"] = new SelectList(_context.Set<SaleViTri>(), "ViTriSaleID", "ViTriSale");
+            var newID = "";
+            if (_context.Sale.Count() == 0)
+            {
+                //khoi tao 1 ma moi
+                newID = "SALE0001";
+            }
+            else
+            {
+                var id = _context.Sale.OrderByDescending(m => m.SaleID).First().SaleID;
+                newID = strPro.AutoGenerateKey(id);
+            }
+            ViewBag.SaleID = newID;
             return View();
         }
 
@@ -68,9 +82,9 @@ namespace btlnhom09.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID", sale.HopDongID);
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID", sale.LuongID);
-            ViewData["ViTriSaleID"] = new SelectList(_context.Set<SaleViTri>(), "ViTriSaleID", "ViTriSaleID", sale.ViTriSaleID);
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", sale.HopDongID);
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", sale.LuongID);
+            ViewData["ViTriSaleID"] = new SelectList(_context.Set<SaleViTri>(), "ViTriSaleID", "ViTriSale", sale.ViTriSaleID);
             return View(sale);
         }
 

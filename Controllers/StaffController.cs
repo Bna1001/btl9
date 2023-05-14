@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using btlnhom09.Models;
+using btlnhom09.Models.Process;
 
 namespace btlnhom09.Controllers
 {
     public class StaffController : Controller
     {
+        StringProcess strPro = new StringProcess();
         private readonly ApplicationDbContext _context;
 
         public StaffController(ApplicationDbContext context)
@@ -49,9 +51,21 @@ namespace btlnhom09.Controllers
         // GET: Staff/Create
         public IActionResult Create()
         {
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID");
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID");
-            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaffID");
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong");
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong");
+            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaff");
+            var newID = "";
+            if (_context.Staff.Count() == 0)
+            {
+                //khoi tao 1 ma moi
+                newID = "STAFF0001";
+            }
+            else
+            {
+                var id = _context.Staff.OrderByDescending(m => m.StaffID).First().StaffID;
+                newID = strPro.AutoGenerateKey(id);
+            }
+            ViewBag.StaffID = newID;
             return View();
         }
 
@@ -68,9 +82,9 @@ namespace btlnhom09.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID", staff.HopDongID);
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID", staff.LuongID);
-            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaffID", staff.ViTriStaffID);
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", staff.HopDongID);
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", staff.LuongID);
+            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaff", staff.ViTriStaffID);
             return View(staff);
         }
 
