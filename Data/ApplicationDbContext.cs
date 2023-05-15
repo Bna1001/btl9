@@ -23,6 +23,4 @@ using btlnhom09.Models;
         public DbSet<btlnhom09.Models.Luong> Luong { get; set; } = default!;
 
         public DbSet<btlnhom09.Models.HopDong> HopDong { get; set; } = default!;
-
-        public DbSet<btlnhom09.Models.CongNhan> CongNhan { get; set; } = default!;
     }
