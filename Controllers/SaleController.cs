@@ -54,6 +54,18 @@ namespace btlnhom09.Controllers
             ViewData["HopDongID"] = new SelectList(_context.HopDong, "HopDongID", "TimeHopDong");
             ViewData["LuongID"] = new SelectList(_context.Luong, "LuongID", "SoLuong");
             ViewData["ViTriSaleID"] = new SelectList(_context.SaleViTri, "ViTriSaleID", "VitriSale");
+            var newID = "";
+            if (_context.Sale.Count() == 0)
+            {
+                //khoi tao 1 ma moi
+                newID = "SALE0001";
+            }
+            else
+            {
+                var id = _context.Sale.OrderByDescending(m => m.SaleID).First().SaleID;
+                newID = strPro.AutoGenerateKey(id);
+            }
+            ViewBag.SaleID = newID;
             return View();
         }
 

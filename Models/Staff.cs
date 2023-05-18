@@ -13,15 +13,17 @@ namespace btlnhom09.Models
         [Required(ErrorMessage =" SĐT Không được bỏ trống")]
         [Display(Name = "SĐT")]
         public string StaffPhoneNumber{ get; set; }
+        [Required(ErrorMessage =" Địa chỉ Không được bỏ trống")]
         [Display(Name = "Địa chỉ")]
         public string StaffAddress{ get; set; }
         [Display(Name = "Ngày Sinh")]
         public string StaffBirth{ get; set; }
         [Display(Name = "Giới tính")]
         public string StaffSex{ get; set; }
+        [Required(ErrorMessage =" Tài khoản Ngân hàng Không được bỏ trống")]
         [Display(Name = "TK Ngân hàng BIDV")]
         public string StaffBank{ get; set; }
-        [Required(ErrorMessage =" Số Cắn Cước Không được bỏ trống")]
+        [Required(ErrorMessage =" Số Căn Cước Không được bỏ trống")]
         [Display(Name ="Số Căn Cước")]
         public string StaffCCCD { get; set; }
         [Display(Name = "Vị trí")]
