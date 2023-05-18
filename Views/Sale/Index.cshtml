@@ -13,9 +13,12 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.SaleName)
+                @Html.DisplayNameFor(model => model.SaleID)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.SaleName)
+            </th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.SalePhoneNumber)
             </th>
             <th>
@@ -23,20 +26,20 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SaleBirth)
-            </th>
+            </th> *@
             <th>
                 @Html.DisplayNameFor(model => model.SaleSex)
             </th>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.SaleBank)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SaleCCCD)
-            </th>
+            </th>  *@
             <th>
                 @Html.DisplayNameFor(model => model.SaleViTri)
             </th>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.Luong)
             </th>
             <th>
@@ -47,7 +50,7 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SaleEnd)
-            </th>
+            </th> *@
             <th></th>
         </tr>
     </thead>
@@ -55,9 +58,12 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.SaleName)
+                @Html.DisplayFor(modelItem => item.SaleID)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.SaleName)
+            </td>
+            @* <td>
                 @Html.DisplayFor(modelItem => item.SalePhoneNumber)
             </td>
             <td>
@@ -65,31 +71,31 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SaleBirth)
-            </td>
+            </td> *@
             <td>
                 @Html.DisplayFor(modelItem => item.SaleSex)
             </td>
-            <td>
+            @* <td>
                 @Html.DisplayFor(modelItem => item.SaleBank)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SaleCCCD)
+            </td>  *@
+            <td>
+                @Html.DisplayFor(modelItem => item.SaleViTri.VitriSale)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Luong.SoLuong)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SaleViTri.ViTriSaleID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Luong.LuongID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HopDong.HopDongID)
+                @Html.DisplayFor(modelItem => item.HopDong.TimeHopDong)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SaleStart)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SaleEnd)
-            </td>
+            </td> *@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.SaleID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.SaleID">Details</a> |

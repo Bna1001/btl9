@@ -35,17 +35,17 @@ namespace btlnhom09.Controllers
                 return NotFound();
             }
 
-            var staff = await _context.Staff
+            var Staff = await _context.Staff
                 .Include(s => s.HopDong)
                 .Include(s => s.Luong)
                 .Include(s => s.StaffViTri)
                 .FirstOrDefaultAsync(m => m.StaffID == id);
-            if (staff == null)
+            if (Staff == null)
             {
                 return NotFound();
             }
 
-            return View(staff);
+            return View(Staff);
         }
 
         // GET: Staff/Create
@@ -58,7 +58,7 @@ namespace btlnhom09.Controllers
             if (_context.Staff.Count() == 0)
             {
                 //khoi tao 1 ma moi
-                newID = "STAFF0001";
+                newID = "Staff00001";
             }
             else
             {
@@ -74,18 +74,18 @@ namespace btlnhom09.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("StaffID,StaffName,StaffPhoneNumber,StaffAddress,StaffBirth,StaffSex,StaffBank,StaffCCCD,ViTriStaffID,LuongID,HopDongID,StaffStart,StaffEnd")] Staff staff)
+        public async Task<IActionResult> Create([Bind("StaffID,StaffName,StaffPhoneNumber,StaffAddress,StaffBirth,StaffSex,StaffBank,StaffCCCD,ViTriStaffID,LuongID,HopDongID,StaffStart,StaffEnd")] Staff Staff)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(staff);
+                _context.Add(Staff);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", staff.HopDongID);
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", staff.LuongID);
-            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "VitriStaff", staff.ViTriStaffID);
-            return View(staff);
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", Staff.HopDongID);
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", Staff.LuongID);
+            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "VitriStaff", Staff.ViTriStaffID);
+            return View(Staff);
         }
 
         // GET: Staff/Edit/5
@@ -96,15 +96,15 @@ namespace btlnhom09.Controllers
                 return NotFound();
             }
 
-            var staff = await _context.Staff.FindAsync(id);
-            if (staff == null)
+            var Staff = await _context.Staff.FindAsync(id);
+            if (Staff == null)
             {
                 return NotFound();
             }
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID", staff.HopDongID);
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID", staff.LuongID);
-            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaffID", staff.ViTriStaffID);
-            return View(staff);
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", Staff.HopDongID);
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", Staff.LuongID);
+            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "VitriStaff", Staff.ViTriStaffID);
+            return View(Staff);
         }
 
         // POST: Staff/Edit/5
@@ -112,9 +112,9 @@ namespace btlnhom09.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("StaffID,StaffName,StaffPhoneNumber,StaffAddress,StaffBirth,StaffSex,StaffBank,StaffCCCD,ViTriStaffID,LuongID,HopDongID,StaffStart,StaffEnd")] Staff staff)
+        public async Task<IActionResult> Edit(string id, [Bind("StaffID,StaffName,StaffPhoneNumber,StaffAddress,StaffBirth,StaffSex,StaffBank,StaffCCCD,ViTriStaffID,LuongID,HopDongID,StaffStart,StaffEnd")] Staff Staff)
         {
-            if (id != staff.StaffID)
+            if (id != Staff.StaffID)
             {
                 return NotFound();
             }
@@ -123,12 +123,12 @@ namespace btlnhom09.Controllers
             {
                 try
                 {
-                    _context.Update(staff);
+                    _context.Update(Staff);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StaffExists(staff.StaffID))
+                    if (!StaffExists(Staff.StaffID))
                     {
                         return NotFound();
                     }
@@ -139,10 +139,10 @@ namespace btlnhom09.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "HopDongID", staff.HopDongID);
-            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "LuongID", staff.LuongID);
-            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "ViTriStaffID", staff.ViTriStaffID);
-            return View(staff);
+            ViewData["HopDongID"] = new SelectList(_context.Set<HopDong>(), "HopDongID", "TimeHopDong", Staff.HopDongID);
+            ViewData["LuongID"] = new SelectList(_context.Set<Luong>(), "LuongID", "SoLuong", Staff.LuongID);
+            ViewData["ViTriStaffID"] = new SelectList(_context.Set<StaffViTri>(), "ViTriStaffID", "VitriStaff", Staff.ViTriStaffID);
+            return View(Staff);
         }
 
         // GET: Staff/Delete/5
@@ -153,17 +153,17 @@ namespace btlnhom09.Controllers
                 return NotFound();
             }
 
-            var staff = await _context.Staff
+            var Staff = await _context.Staff
                 .Include(s => s.HopDong)
                 .Include(s => s.Luong)
                 .Include(s => s.StaffViTri)
                 .FirstOrDefaultAsync(m => m.StaffID == id);
-            if (staff == null)
+            if (Staff == null)
             {
                 return NotFound();
             }
 
-            return View(staff);
+            return View(Staff);
         }
 
         // POST: Staff/Delete/5
@@ -175,10 +175,10 @@ namespace btlnhom09.Controllers
             {
                 return Problem("Entity set 'ApplicationDbContext.Staff'  is null.");
             }
-            var staff = await _context.Staff.FindAsync(id);
-            if (staff != null)
+            var Staff = await _context.Staff.FindAsync(id);
+            if (Staff != null)
             {
-                _context.Staff.Remove(staff);
+                _context.Staff.Remove(Staff);
             }
             
             await _context.SaveChangesAsync();

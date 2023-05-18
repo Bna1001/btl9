@@ -26,17 +26,17 @@ namespace btlnhom09.Models
         [Required(ErrorMessage =" Số Căn Cước Không được bỏ trống")]
         [Display(Name ="Số Căn Cước")]
         public string StaffCCCD { get; set; }
-        [Display(Name = "Vị trí")]
         public string ViTriStaffID { get; set; }
         [ForeignKey("ViTriStaffID")]
+        [Display(Name = "Vị Trí")]
         public StaffViTri? StaffViTri { get; set; }
-        [Display(Name = "Lương")]
         public string LuongID { get; set; }
         [ForeignKey("LuongID")]
+        [Display(Name = "Lương")]
         public Luong? Luong { get; set; }
-        [Display(Name = "Hợp đồng")]
         public string HopDongID { get; set; }
         [ForeignKey("HopDongID")]
+        [Display(Name = "Hợp đồng")]
         public HopDong? HopDong { get; set; }
         [Display(Name = "Ngày làm")]
         public string StaffStart{ get; set; }
