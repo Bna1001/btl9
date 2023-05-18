@@ -24,7 +24,7 @@ namespace btlnhom09.Models
         [Required(ErrorMessage =" Số Cắn Cước Không được bỏ trống")]
         [Display(Name ="Số Căn Cước")]
         public string SaleCCCD { get; set; }
-        [Display(Name = "Vị trí")]
+        [Display(Name = "Vị Trí")]
         public string ViTriSaleID { get; set; }
         [ForeignKey("ViTriSaleID")]
         public SaleViTri? SaleViTri { get; set; }
