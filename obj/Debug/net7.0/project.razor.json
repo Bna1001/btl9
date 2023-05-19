@@ -18645,11 +18645,72 @@
   "RootNamespace": "btlnhom09",
   "Documents": [
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Staff\\Details.cshtml",
+      "TargetPath": "Views\\Staff\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Luong\\Details.cshtml",
+      "TargetPath": "Views\\Luong\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Index.cshtml",
+      "TargetPath": "Views\\CongNhan\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\HopDong\\Delete.cshtml",
+      "TargetPath": "Views\\HopDong\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\StaffViTri\\Details.cshtml",
+      "TargetPath": "Views\\StaffViTri\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Delete.cshtml",
+      "TargetPath": "Views\\CongNhan\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> namanh
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Luong\\Create.cshtml",
+      "TargetPath": "Views\\Luong\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\StaffViTri\\Delete.cshtml",
+      "TargetPath": "Views\\StaffViTri\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Sale\\Edit.cshtml",
+      "TargetPath": "Views\\Sale\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Staff\\Delete.cshtml",
+      "TargetPath": "Views\\Staff\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\SaleViTri\\Index.cshtml",
+      "TargetPath": "Views\\SaleViTri\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> namanh
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -18660,16 +18721,140 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Details.cshtml",
+      "TargetPath": "Views\\CongNhan\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Luong\\Edit.cshtml",
+      "TargetPath": "Views\\Luong\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\SaleViTri\\Create.cshtml",
+      "TargetPath": "Views\\SaleViTri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Sale\\Details.cshtml",
+      "TargetPath": "Views\\Sale\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\SaleViTri\\Details.cshtml",
+      "TargetPath": "Views\\SaleViTri\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\SaleViTri\\Edit.cshtml",
+      "TargetPath": "Views\\SaleViTri\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\HopDong\\Create.cshtml",
+      "TargetPath": "Views\\HopDong\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Luong\\Index.cshtml",
+      "TargetPath": "Views\\Luong\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Staff\\Index.cshtml",
+      "TargetPath": "Views\\Staff\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Staff\\Create.cshtml",
+      "TargetPath": "Views\\Staff\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\HopDong\\Index.cshtml",
+      "TargetPath": "Views\\HopDong\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> namanh
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Upload.cshtml",
+      "TargetPath": "Views\\CongNhan\\Upload.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\SaleViTri\\Delete.cshtml",
+      "TargetPath": "Views\\SaleViTri\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Sale\\Create.cshtml",
+      "TargetPath": "Views\\Sale\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\StaffViTri\\Index.cshtml",
+      "TargetPath": "Views\\StaffViTri\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> namanh
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Create.cshtml",
+      "TargetPath": "Views\\CongNhan\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Luong\\Delete.cshtml",
+      "TargetPath": "Views\\Luong\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\CongNhan\\Edit.cshtml",
+      "TargetPath": "Views\\CongNhan\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\HopDong\\Edit.cshtml",
+      "TargetPath": "Views\\HopDong\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Sale\\Index.cshtml",
+      "TargetPath": "Views\\Sale\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\StaffViTri\\Edit.cshtml",
+      "TargetPath": "Views\\StaffViTri\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\StaffViTri\\Create.cshtml",
+      "TargetPath": "Views\\StaffViTri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Staff\\Edit.cshtml",
+      "TargetPath": "Views\\Staff\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> namanh
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -18677,6 +18862,19 @@
     {
       "FilePath": "d:\\btl09\\btlnhom09\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+<<<<<<< HEAD
+=======
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\Sale\\Delete.cshtml",
+      "TargetPath": "Views\\Sale\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\btl09\\btlnhom09\\Views\\HopDong\\Details.cshtml",
+      "TargetPath": "Views\\HopDong\\Details.cshtml",
+>>>>>>> namanh
       "FileKind": "mvc"
     }
   ],

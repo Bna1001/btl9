@@ -1,0 +1,36 @@
+@model IEnumerable<btlnhom09.Models.StaffViTri>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Phòng Hành Chính</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới 1 vị trí</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th hidden>
+                @Html.DisplayNameFor(model => model.VitriStaff)
+            </th>
+            <th>Vị Trí</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VitriStaff)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ViTriStaffID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ViTriStaffID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ViTriStaffID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
