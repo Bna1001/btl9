@@ -8,7 +8,7 @@ namespace btlnhom09.Models
         [Display(Name ="Mã Nhân Viên")]
         public string? MaCongNhan {get; set;}
         [Required(ErrorMessage ="Phòng Ban không được bỏ trống")]
-        [Display(Name ="Phòng Ban")]
+        [Display(Name ="Tên")]
         public string? PhongBan {get; set;}
           
         [Display(Name ="Vị Trí")]

@@ -12,20 +12,31 @@ namespace btlnhom09.Controllers
 {
     public class CongNhanController : Controller
     {
+        StringProcess strPro = new StringProcess();
         private readonly ApplicationDbContext _context;
 
         public CongNhanController(ApplicationDbContext context)
         {
             _context = context;
         }
-
-        // GET: CongNhan
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-              return _context.CongNhan != null ? 
-                          View(await _context.CongNhan.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.CongNhan'  is null.");
+            var CongNhan = from m in _context.CongNhan // lấy toàn bộ liên kết
+                select m;
+
+            if (!String.IsNullOrEmpty(searchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
+            {
+                CongNhan = CongNhan.Where(s => s.PhongBan.Contains(searchString)); //lọc theo chuỗi tìm kiếm
+                }
+            return View(await CongNhan.ToListAsync());
         }
+        // // GET: CongNhan
+        // public async Task<IActionResult> Index()
+        // {
+        //       return _context.CongNhan != null ? 
+        //                   View(await _context.CongNhan.ToListAsync()) :
+        //                   Problem("Entity set 'ApplicationDbContext.CongNhan'  is null.");
+        // }
 
         // GET: CongNhan/Details/5
         public async Task<IActionResult> Details(string id)
@@ -48,6 +59,18 @@ namespace btlnhom09.Controllers
         // GET: CongNhan/Create
         public IActionResult Create()
         {
+            var newID = "";
+            if (_context.CongNhan.Count() == 0)
+            {
+                //khoi tao 1 ma moi
+                newID = "WORKER001";
+            }
+            else
+            {
+                var id = _context.CongNhan.OrderByDescending(m => m.MaCongNhan).First().MaCongNhan;
+                newID = strPro.AutoGenerateKey(id);
+            }
+            ViewBag.MaCongNhan = newID;
             return View();
         }
 
