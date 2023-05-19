@@ -56,15 +56,18 @@
                 <span asp-validation-for="SaleCCCD" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ViTriSaleID" class="control-label"></label>
+                <label>Vị Trí</label>
+                <label asp-for="ViTriSaleID" class="control-label" hidden></label>
                 <select asp-for="ViTriSaleID" class ="form-control" asp-items="ViewBag.ViTriSaleID"></select>
             </div>
             <div class="form-group">
-                <label asp-for="LuongID" class="control-label"></label>
+                <label>Lương</label>
+                <label asp-for="LuongID" class="control-label" hidden></label>
                 <select asp-for="LuongID" class ="form-control" asp-items="ViewBag.LuongID"></select>
             </div>
             <div class="form-group">
-                <label asp-for="HopDongID" class="control-label"></label>
+                <label>Hợp Đồng</label>
+                <label asp-for="HopDongID" class="control-label" hidden></label>
                 <select asp-for="HopDongID" class ="form-control" asp-items="ViewBag.HopDongID"></select>
             </div>
             <div class="form-group">
