@@ -56,6 +56,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/btl09/btl9/Views/CeoViTri/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/CeoViTri/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/CeoViTri/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/CeoViTri/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/CeoViTri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/Ceo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/Ceo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/Ceo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/Ceo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/btl09/btl9/Views/Ceo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/btl09/btl9/Views/CongNhan/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

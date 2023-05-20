@@ -28,4 +28,8 @@ using btlnhom09.Models;
         public DbSet<btlnhom09.Models.Account> Account { get; set; } = default!;
 
         public DbSet<btlnhom09.Models.AccountViTri> AccountViTri { get; set; } = default!;
+
+        public DbSet<btlnhom09.Models.CeoViTri> CeoViTri { get; set; } = default!;
+
+        public DbSet<btlnhom09.Models.Ceo> Ceo { get; set; } = default!;
     }
