@@ -9,261 +9,261 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = btlnhom09
 build_property.RootNamespace = btlnhom09
-build_property.ProjectDir = F:\btl09\btl9\
+build_property.ProjectDir = f:\btl09\btl9\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\btl09\btl9
+build_property.MSBuildProjectDirectory = f:\btl09\btl9
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/btl09/btl9/Views/AccountViTri/Create.cshtml]
+[f:/btl09/btl9/Views/AccountViTri/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFZpVHJpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/AccountViTri/Delete.cshtml]
+[f:/btl09/btl9/Views/AccountViTri/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFZpVHJpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/AccountViTri/Details.cshtml]
+[f:/btl09/btl9/Views/AccountViTri/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFZpVHJpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/AccountViTri/Edit.cshtml]
+[f:/btl09/btl9/Views/AccountViTri/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFZpVHJpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/AccountViTri/Index.cshtml]
+[f:/btl09/btl9/Views/AccountViTri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFZpVHJpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Account/Create.cshtml]
+[f:/btl09/btl9/Views/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Account/Delete.cshtml]
+[f:/btl09/btl9/Views/Account/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Account/Details.cshtml]
+[f:/btl09/btl9/Views/Account/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Account/Edit.cshtml]
+[f:/btl09/btl9/Views/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Account/Index.cshtml]
+[f:/btl09/btl9/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CeoViTri/Create.cshtml]
+[f:/btl09/btl9/Views/CeoViTri/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CeoViTri/Delete.cshtml]
+[f:/btl09/btl9/Views/CeoViTri/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CeoViTri/Details.cshtml]
+[f:/btl09/btl9/Views/CeoViTri/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CeoViTri/Edit.cshtml]
+[f:/btl09/btl9/Views/CeoViTri/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CeoViTri/Index.cshtml]
+[f:/btl09/btl9/Views/CeoViTri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvVmlUcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Ceo/Create.cshtml]
+[f:/btl09/btl9/Views/Ceo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Ceo/Delete.cshtml]
+[f:/btl09/btl9/Views/Ceo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Ceo/Details.cshtml]
+[f:/btl09/btl9/Views/Ceo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Ceo/Edit.cshtml]
+[f:/btl09/btl9/Views/Ceo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Ceo/Index.cshtml]
+[f:/btl09/btl9/Views/Ceo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Create.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Delete.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Details.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Edit.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Index.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/CongNhan/Upload.cshtml]
+[f:/btl09/btl9/Views/CongNhan/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Home/Index.cshtml]
+[f:/btl09/btl9/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Home/Privacy.cshtml]
+[f:/btl09/btl9/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/HopDong/Create.cshtml]
+[f:/btl09/btl9/Views/HopDong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/HopDong/Delete.cshtml]
+[f:/btl09/btl9/Views/HopDong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/HopDong/Details.cshtml]
+[f:/btl09/btl9/Views/HopDong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/HopDong/Edit.cshtml]
+[f:/btl09/btl9/Views/HopDong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/HopDong/Index.cshtml]
+[f:/btl09/btl9/Views/HopDong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Luong/Create.cshtml]
+[f:/btl09/btl9/Views/Luong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Luong/Delete.cshtml]
+[f:/btl09/btl9/Views/Luong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Luong/Details.cshtml]
+[f:/btl09/btl9/Views/Luong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Luong/Edit.cshtml]
+[f:/btl09/btl9/Views/Luong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Luong/Index.cshtml]
+[f:/btl09/btl9/Views/Luong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/SaleViTri/Create.cshtml]
+[f:/btl09/btl9/Views/SaleViTri/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVZpVHJpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/SaleViTri/Delete.cshtml]
+[f:/btl09/btl9/Views/SaleViTri/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVZpVHJpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/SaleViTri/Details.cshtml]
+[f:/btl09/btl9/Views/SaleViTri/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVZpVHJpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/SaleViTri/Edit.cshtml]
+[f:/btl09/btl9/Views/SaleViTri/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVZpVHJpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/SaleViTri/Index.cshtml]
+[f:/btl09/btl9/Views/SaleViTri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVZpVHJpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Sale/Create.cshtml]
+[f:/btl09/btl9/Views/Sale/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Sale/Delete.cshtml]
+[f:/btl09/btl9/Views/Sale/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Sale/Details.cshtml]
+[f:/btl09/btl9/Views/Sale/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Sale/Edit.cshtml]
+[f:/btl09/btl9/Views/Sale/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Sale/Index.cshtml]
+[f:/btl09/btl9/Views/Sale/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Shared/Error.cshtml]
+[f:/btl09/btl9/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Shared/_ValidationScriptsPartial.cshtml]
+[f:/btl09/btl9/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/StaffViTri/Create.cshtml]
+[f:/btl09/btl9/Views/StaffViTri/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZWaVRyaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/StaffViTri/Delete.cshtml]
+[f:/btl09/btl9/Views/StaffViTri/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZWaVRyaVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/StaffViTri/Details.cshtml]
+[f:/btl09/btl9/Views/StaffViTri/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZWaVRyaVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/StaffViTri/Edit.cshtml]
+[f:/btl09/btl9/Views/StaffViTri/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZWaVRyaVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/StaffViTri/Index.cshtml]
+[f:/btl09/btl9/Views/StaffViTri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZWaVRyaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Staff/Create.cshtml]
+[f:/btl09/btl9/Views/Staff/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Staff/Delete.cshtml]
+[f:/btl09/btl9/Views/Staff/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Staff/Details.cshtml]
+[f:/btl09/btl9/Views/Staff/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Staff/Edit.cshtml]
+[f:/btl09/btl9/Views/Staff/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Staff/Index.cshtml]
+[f:/btl09/btl9/Views/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/_ViewImports.cshtml]
+[f:/btl09/btl9/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/_ViewStart.cshtml]
+[f:/btl09/btl9/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/btl09/btl9/Views/Shared/_Layout.cshtml]
+[f:/btl09/btl9/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tf9tstzrhz
