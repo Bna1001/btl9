@@ -1,0 +1,107 @@
+@model IEnumerable<btlnhom09.Models.Account>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh sách nhân viên</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới nhân viên</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountName)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.AccountPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountBirth)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.AccountSex)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.AccountBank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountCCCD)
+            </th>  *@
+            <th>
+                @Html.DisplayNameFor(model => model.AccountViTri)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.Luong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HopDong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountEnd)
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountName)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.AccountPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountBirth)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountSex)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.AccountBank)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountCCCD)
+            </td>  *@
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountViTri.VitriAccount)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Luong.SoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HopDong.TimeHopDong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountEnd)
+            </td> *@
+            <td>
+                <a asp-action="Details" asp-route-id="@item.AccountID">Thông tin</a> |
+                <a asp-action="Edit" asp-route-id="@item.AccountID">Cập nhật</a> |
+                <a asp-action="Delete" asp-route-id="@item.AccountID">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

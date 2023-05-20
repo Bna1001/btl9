@@ -18650,6 +18650,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Ceo\\Delete.cshtml",
+      "TargetPath": "Views\\Ceo\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\Staff\\Edit.cshtml",
       "TargetPath": "Views\\Staff\\Edit.cshtml",
       "FileKind": "mvc"
@@ -18662,6 +18667,16 @@
     {
       "FilePath": "f:\\btl09\\btl9\\Views\\Luong\\Index.cshtml",
       "TargetPath": "Views\\Luong\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Ceo\\Details.cshtml",
+      "TargetPath": "Views\\Ceo\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\AccountViTri\\Delete.cshtml",
+      "TargetPath": "Views\\AccountViTri\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18695,6 +18710,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Ceo\\Index.cshtml",
+      "TargetPath": "Views\\Ceo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18702,6 +18722,11 @@
     {
       "FilePath": "f:\\btl09\\btl9\\Views\\HopDong\\Details.cshtml",
       "TargetPath": "Views\\HopDong\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Ceo\\Edit.cshtml",
+      "TargetPath": "Views\\Ceo\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18725,6 +18750,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Account\\Details.cshtml",
+      "TargetPath": "Views\\Account\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\HopDong\\Index.cshtml",
       "TargetPath": "Views\\HopDong\\Index.cshtml",
       "FileKind": "mvc"
@@ -18745,8 +18775,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\CeoViTri\\Create.cshtml",
+      "TargetPath": "Views\\CeoViTri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Ceo\\Create.cshtml",
+      "TargetPath": "Views\\Ceo\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\AccountViTri\\Index.cshtml",
+      "TargetPath": "Views\\AccountViTri\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18762,6 +18807,21 @@
     {
       "FilePath": "f:\\btl09\\btl9\\Views\\Luong\\Details.cshtml",
       "TargetPath": "Views\\Luong\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\CeoViTri\\Edit.cshtml",
+      "TargetPath": "Views\\CeoViTri\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\AccountViTri\\Create.cshtml",
+      "TargetPath": "Views\\AccountViTri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\CeoViTri\\Delete.cshtml",
+      "TargetPath": "Views\\CeoViTri\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18790,6 +18850,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Account\\Edit.cshtml",
+      "TargetPath": "Views\\Account\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\Staff\\Index.cshtml",
       "TargetPath": "Views\\Staff\\Index.cshtml",
       "FileKind": "mvc"
@@ -18797,6 +18862,11 @@
     {
       "FilePath": "f:\\btl09\\btl9\\Views\\CongNhan\\Index.cshtml",
       "TargetPath": "Views\\CongNhan\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\AccountViTri\\Edit.cshtml",
+      "TargetPath": "Views\\AccountViTri\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18825,8 +18895,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Account\\Index.cshtml",
+      "TargetPath": "Views\\Account\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\Sale\\Index.cshtml",
       "TargetPath": "Views\\Sale\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Account\\Create.cshtml",
+      "TargetPath": "Views\\Account\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18837,6 +18917,16 @@
     {
       "FilePath": "f:\\btl09\\btl9\\Views\\StaffViTri\\Create.cshtml",
       "TargetPath": "Views\\StaffViTri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\AccountViTri\\Details.cshtml",
+      "TargetPath": "Views\\AccountViTri\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\Account\\Delete.cshtml",
+      "TargetPath": "Views\\Account\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18855,8 +18945,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\btl09\\btl9\\Views\\CeoViTri\\Index.cshtml",
+      "TargetPath": "Views\\CeoViTri\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\btl09\\btl9\\Views\\CongNhan\\Details.cshtml",
       "TargetPath": "Views\\CongNhan\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\btl09\\btl9\\Views\\CeoViTri\\Details.cshtml",
+      "TargetPath": "Views\\CeoViTri\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

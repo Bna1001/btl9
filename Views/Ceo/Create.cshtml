@@ -1,0 +1,96 @@
+@model btlnhom09.Models.Ceo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Ceo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CeoID" class="control-label"></label>
+                <input asp-for="CeoID" class="form-control" value="@ViewBag.CeoID" readonly/>
+                <span asp-validation-for="CeoID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoName" class="control-label"></label>
+                <input asp-for="CeoName" class="form-control" />
+                <span asp-validation-for="CeoName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoPhoneNumber" class="control-label"></label>
+                <input asp-for="CeoPhoneNumber" class="form-control" />
+                <span asp-validation-for="CeoPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoAddress" class="control-label"></label>
+                <input asp-for="CeoAddress" class="form-control" />
+                <span asp-validation-for="CeoAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoBirth" class="control-label"></label>
+                <input asp-for="CeoBirth" class="form-control" type="date" id="CeoBirth" name="CeoBirth" />
+                <span asp-validation-for="CeoBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoSex" class="control-label"></label>
+                <select id="CeoSex" name="CeoSex" class="form-control">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                </select>
+                <span asp-validation-for="CeoSex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoBank" class="control-label"></label>
+                <input asp-for="CeoBank" class="form-control" />
+                <span asp-validation-for="CeoBank" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoCCCD" class="control-label"></label>
+                <input asp-for="CeoCCCD" class="form-control" />
+                <span asp-validation-for="CeoCCCD" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Vị Trí</label>
+                <label asp-for="ViTriCeoID" class="control-label" hidden></label>
+                <select asp-for="ViTriCeoID" class ="form-control" asp-items="ViewBag.ViTriCeoID"></select>
+            </div>
+            <div class="form-group">
+                <label>Lương</label>
+                <label asp-for="LuongID" class="control-label" hidden></label>
+                <select asp-for="LuongID" class ="form-control" asp-items="ViewBag.LuongID"></select>
+            </div>
+            <div class="form-group">
+                <label>Hợp Đồng</label>
+                <label asp-for="HopDongID" class="control-label" hidden></label>
+                <select asp-for="HopDongID" class ="form-control" asp-items="ViewBag.HopDongID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoStart" class="control-label"></label>
+                <input asp-for="CeoStart" class="form-control" type="date" />
+                <span asp-validation-for="CeoStart" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CeoEnd" class="control-label"></label>
+                <input asp-for="CeoEnd" class="form-control" type="date"/>
+                <span asp-validation-for="CeoEnd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
