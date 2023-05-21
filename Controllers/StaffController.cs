@@ -19,13 +19,23 @@ namespace btlnhom09.Controllers
         {
             _context = context;
         }
-
-        // GET: Staff
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var applicationDbContext = _context.Staff.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.StaffViTri);
-            return View(await applicationDbContext.ToListAsync());
+            var Staff = from m in _context.Staff.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.StaffViTri)// lấy toàn bộ liên kết
+                select m;
+
+            if (!String.IsNullOrEmpty(searchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
+            {
+                Staff = Staff.Where(s => s.StaffName.Contains(searchString)); //lọc theo chuỗi tìm kiếm
+                }
+            return View(await Staff.ToListAsync());
         }
+        // GET: Staff
+        // public async Task<IActionResult> Index()
+        // {
+        //     var applicationDbContext = _context.Staff.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.StaffViTri);
+        //     return View(await applicationDbContext.ToListAsync());
+        // }
 
         // GET: Staff/Details/5
         public async Task<IActionResult> Details(string id)

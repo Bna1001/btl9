@@ -21,11 +21,22 @@ namespace btlnhom09.Controllers
         }
 
         // GET: Sale
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var applicationDbContext = _context.Sale.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.SaleViTri);
-            return View(await applicationDbContext.ToListAsync());
+            var Sale = from m in _context.Sale.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.SaleViTri)// lấy toàn bộ liên kết
+                select m;
+
+            if (!String.IsNullOrEmpty(searchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
+            {
+                Sale = Sale.Where(s => s.SaleName.Contains(searchString)); //lọc theo chuỗi tìm kiếm
+                }
+            return View(await Sale.ToListAsync());
         }
+        // public async Task<IActionResult> Index()
+        // {
+        //     var applicationDbContext = _context.Sale.Include(s => s.HopDong).Include(s => s.Luong).Include(s => s.SaleViTri);
+        //     return View(await applicationDbContext.ToListAsync());
+        // }
 
         // GET: Sale/Details/5
         public async Task<IActionResult> Details(string id)
